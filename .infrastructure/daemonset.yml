@@ -30,7 +30,4 @@ spec:
               curl -s todoapp-service.todoapp.svc.cluster.local:80;
               sleep 5;
             done
-        ports:
-          - containerPort: 80
-            hostPort: 30008
         restartPolicy: Always
